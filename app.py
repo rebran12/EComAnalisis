@@ -200,7 +200,7 @@ def main():
         st.image("EDA.png",use_column_width=True)
         st.info("Dashboard ini dibuat sebagai halaman Exploratory data analysis")
         st.header("Data Distribution")
-        st.image('data\D1.png',use_column_width=True)
+        st.image('D1.png',use_column_width=True)
         D1 = '''
 Observations:
 
@@ -209,14 +209,14 @@ sekitar 80%.).'''
         st.code(D1, language='python')
         
         st.header("Data Korelasi")
-        st.image('data\K1.png',use_column_width=True)
+        st.image('K1.png',use_column_width=True)
         K1 = '''
 CouponUsed dan OrderCount berkorelasi kuat, make sense karena setiap pengguna
 dengan lebih banyak kupon dapat memesan lebih banyak barang.<br>'''
         st.code(K1, language='python')
         
         st.header("Demogprahic Dari Variabel")
-        st.image('data\G1.png',use_column_width=True)
+        st.image('G1.png',use_column_width=True)
         G1 = '''
 Observations:
 
@@ -224,9 +224,9 @@ Observations:
 memiliki ~20% pengguna lebih banyak dari Perempuan yaitu ~40%.'''
         st.code(G1, language='python')
         
-        st.image('data\G2.png',use_column_width=True)
+        st.image('G2.png',use_column_width=True)
 
-        st.image('data\G3.png',use_column_width=True)
+        st.image('G3.png',use_column_width=True)
         G3 = '''
 Observations
 - Dari dataset, distribusi Laki-laki lebih banyak dari Perempuan
@@ -242,7 +242,7 @@ di hampir level presentase yang sama..'''
 
         st.code(G3, language='python')
         
-        st.image('data\G4.png',use_column_width=True)
+        st.image('G4.png',use_column_width=True)
         G4 = '''
 Observations
 - Pengguna ecommerce paling banyak adalah orang yang sudah menikah yaitu ~50%
